@@ -1,22 +1,8 @@
-/* Animations woohoo */
-
-/* Rotation animation */
-/* Solution found on StackOverflow: https://stackoverflow.com/questions/16771225/css3-rotate-animation#16771693 */
-@keyframes rotation {
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform:rotate(360deg);
-    }
-}
-
 @font-face {
     font-family: VCR OSD Mono;
     src: url("../fonts/VCR_OSD_MONO.ttf");
 }
 
-/* Body */
-/* Solution for disabling text selection found on StackOverflow:
-https://stackoverflow.com/questions/3779534/how-do-i-disable-text-selection-with-css-or-javascript */
 body{
     background: #ffe09f;
     -moz-user-select: none;
@@ -31,8 +17,6 @@ body{
     display: flex;
 }
 
-/* Left Container */
-/* just a placeholder atm */
 .leftContainer{
     width: calc(100% * 0.25);
 }
@@ -55,14 +39,10 @@ body{
     cursor: pointer;
 }
 
-/* Main Container */
-/* THE BITCOIN IMAGE */
 .mainGameContent{
     width: calc(100% * 0.5);
 }
 
-/* Right Container */
-/* All items which you can buy */
 .rightContainer{
     width: calc(100% * 0.25);
     border: 4px solid white;
@@ -96,7 +76,6 @@ body{
     text-shadow: 1px 1px 1px black, 1px -1px 1px black, -1px 1px 1px black, -1px -1px 1px black
 }
 
-/* BITCOIN */
 .bitcoin{
     width: 25%;
     display: block;
@@ -129,10 +108,7 @@ body{
     padding: 0;
 }
 
-/* Optimization for smaller screens */
-
 @media screen and (max-width: 767px) {
-    /* BITCOIN */
     .bitcoin{
         width: 35%;
         display: block;
@@ -158,7 +134,6 @@ body{
     }
 }
 
-/* Item list item */
 .purchaseItem{
     width: 99%;
     border-top: 3px solid white;

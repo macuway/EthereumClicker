@@ -1,33 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- COMMON TAGS -->
-    <meta charset="utf-8">
-    <title>Bitcoin Clicker</title>
-    <!-- Search Engine -->
-    <meta name="description" content="A clicker game where you can get virtual Bitcoins by clicking!">
-    <meta name="image" content="https://raw.githubusercontent.com/julianYaman/bitcoin-clicker/master/images/bitcoin-8bit.png">
-    <!-- Schema.org for Google -->
-    <meta itemprop="name" content="Bitcoin Clicker">
-    <meta itemprop="description" content="A clicker game where you can get virtual Bitcoins by clicking!">
-    <meta itemprop="image" content="https://raw.githubusercontent.com/julianYaman/bitcoin-clicker/master/images/bitcoin-8bit.png">
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Bitcoin Clicker">
-    <meta name="twitter:description" content="A clicker game where you can get virtual Bitcoins by clicking!">
-    <meta name="twitter:site" content="@julianYaman">
-    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/julianYaman/bitcoin-clicker/master/images/bitcoin-8bit.png">
-    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-    <meta name="og:title" content="Bitcoin Clicker">
-    <meta name="og:description" content="A clicker game where you can get virtual Bitcoins by clicking!">
-    <meta name="og:image" content="https://raw.githubusercontent.com/julianYaman/bitcoin-clicker/master/images/bitcoin-8bit.png">
-    <meta name="og:url" content="https://julianyaman.github.io/bitcoin-clicker/index.html">
-    <meta name="og:site_name" content="Bitcoin Clicker">
-    <meta name="og:type" content="website">
 
-    <!-- Stylesheets -->
+<head>
+    <meta charset="utf-8">
+    <title>PC-clicker</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 </head>
+
 <body>
     <div class="gameFullContent">
         <div class="leftContainer">
@@ -35,16 +14,15 @@
             <button class="resetButton">Reset everything</button>
         </div>
         <div class="mainGameContent">
-            <h1 class="bitcoinAmountDisplay"><span class="bitcoinAmount">0</span> Bitcoins</h1>
-            <p class="satoshiAmountDisplay"><span class="satoshiAmount">0</span> Satoshi</p>
-            <p class="bSecRate"><span class="bSecRateNumber">0</span> Bitcoins/sec</p>
-            <img class="bitcoin" src="images/bitcoin-8bit.png">
+            <h1 class="bitcoinAmountDisplay"><span class="bitcoinAmount">0</span> ethereum</h1>
+            <p class="bSecRate"><span class="bSecRateNumber">0</span> ethereum/sec</p>
+            <img class="bitcoin" src="images/066f60f261d46b5.png">
         </div>
         <div class="rightContainer buyItemContainer">
             <ul class="purchaseList">
                 <li class="purchaseItem" id="item_oldCalculator" data-price="0.0000001" data-bits-per-sec="0.00000001">
                     <span class="amountOfItem">0</span>
-                    <p class="itemHeadline">Old calculator</p>
+                    <p class="itemHeadline">First Calculator</p>
                     <p class="itemPrice">0.0000001 Bitcoins (10 Satoshi)</p>
                 </li>
                 <li class="purchaseItem" id="item_oldCpu" data-price="0.00000125" data-bits-per-sec="0.0000001">
@@ -52,7 +30,8 @@
                     <p class="itemHeadline">Old CPU</p>
                     <p class="itemPrice">0.00000125 Bitcoins (125 Satoshi)</p>
                 </li>
-                <li class="purchaseItem" id="item_oldComputerFromGrandpa" data-price="0.00003" data-bits-per-sec="0.000005">
+                <li class="purchaseItem" id="item_oldComputerFromGrandpa" data-price="0.00003"
+                    data-bits-per-sec="0.000005">
                     <span class="amountOfItem">0</span>
                     <p class="itemHeadline">Old computer from grandpa</p>
                     <p class="itemPrice">0.00003 Bitcoins (3k Satoshi)</p>
@@ -122,12 +101,14 @@
                     <p class="itemHeadline">Mining Farm ON THE MOON</p>
                     <p class="itemPrice">75.500.000 Bitcoins</p>
                 </li>
-                <li class="purchaseItem" id="item_bitcoinTimeMachine" data-price="500000000" data-bits-per-sec="80000000">
+                <li class="purchaseItem" id="item_bitcoinTimeMachine" data-price="500000000"
+                    data-bits-per-sec="80000000">
                     <span class="amountOfItem">0</span>
                     <p class="itemHeadline">Bitcoin Time Machine</p>
                     <p class="itemPrice">975.000.000 Bitcoins</p>
                 </li>
-                <li class="purchaseItem" id="item_blackHolePoweredMiner" data-price="75000000000" data-bits-per-sec="1750000000">
+                <li class="purchaseItem" id="item_blackHolePoweredMiner" data-price="75000000000"
+                    data-bits-per-sec="1750000000">
                     <span class="amountOfItem">0</span>
                     <p class="itemHeadline">Black Hole-powered Miner</p>
                     <p class="itemPrice">750.000.000.000 Bitcoins</p>
@@ -138,4 +119,5 @@
     <script src="lib/jquery-3.3.1.min.js"></script>
     <script async src="scripts/app.js" type="text/javascript"></script>
 </body>
+
 </html>
