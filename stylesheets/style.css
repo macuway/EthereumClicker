@@ -4,7 +4,7 @@
 }
 
 body{
-    background: #ffe09f;
+    background: #FFECB4;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select:none;
@@ -18,12 +18,16 @@ body{
 }
 
 .leftContainer{
-    width: calc(100% * 0.20);
+    width: calc(100% * 0.45);
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-
+    background-image: url("https://i.pinimg.com/originals/8b/ef/94/8bef94249eeed8fd417cdfe517a69337.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
 
 .version{
     font-family: VCR OSD Mono, cursive;
@@ -44,21 +48,30 @@ body{
 }
 
 .mainGameContent{
-    width: calc(100% * 0.5);
+
 }
 
 .rightContainer{
-    width: calc(100% * 0.25);
+    width: calc(100%);
     border: 4px solid white;
     max-height: 96vh;
     overflow-y: auto;
     overflow-x: hidden;
 }
+.balance {
+    display: flex;
+    align-items: center;
 
+    height: 400px;
+    width: 600px;
+    background-image: url("http://piskel-resizer.appspot.com/resize?size=200&url=http%3A%2F%2Fwww.piskelapp.com%2Fimg%2F0f956c23-393b-11e6-bf1f-65a552f5d31e.png");
+    background-size: cover;
+}
 .bitcoinAmountDisplay{
     text-align: center;
+
     font-family: VCR OSD Mono, cursive;
-    font-size: 20pt;
+    font-size: 30pt;
     color: white;
     text-shadow: 1px 1px 1px black, 1px -1px 1px black, -1px 1px 1px black, -1px -1px 1px black;
     margin: 20px 0 0 0px;
@@ -77,30 +90,34 @@ body{
     font-family: VCR OSD Mono, cursive;
     font-size: 15pt;
     color: white;
+
     text-shadow: 1px 1px 1px black, 1px -1px 1px black, -1px 1px 1px black, -1px -1px 1px black
 }
-
+.eth {
+    width: 30px;
+    height: 30px;
+}
 .bitcoin{
-    width: 25%;
-    display: block;
+    width: 40%;
+    display: flex;
     position: absolute;
-    left: 30%;
-    right: 30%;
+
+
     margin: 0 auto;
-    top: 25%;
+    top: 4%;
     transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
     animation: rotation 20s linear infinite;
     border-radius: 500px;
 }
 .bitcoin:hover{
-    width: 27%;
-    top: 23%;
+    width: 39%;
+    top: 6%;
     transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
     cursor:pointer;
 }
 .bitcoin:active{
-    width: 23%;
-    top: 27%;
+    width: 38%;
+    top: 10%;
     transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
 }
 
@@ -110,6 +127,7 @@ body{
     font-family: "VCR OSD Mono", cursive;
     margin: 0;
     padding: 0;
+    columns: 2;
 }
 
 @media screen and (max-width: 767px) {
@@ -139,11 +157,13 @@ body{
 }
 
 .purchaseItem{
-    width: 99%;
+    width: 75%;
+    height: 75px;
     border-top: 3px solid white;
     border-bottom: 3px solid white;
     border-right: 3px solid white;
-    padding-left: 10px;
+    margin-top: 5px;
+    margin-left: 50px;
     background: linear-gradient(#ffe09f, #ffb84c);
 }
 .purchaseItem:hover{
