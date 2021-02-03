@@ -18,7 +18,11 @@ body{
 }
 
 .leftContainer{
-    width: calc(100% * 0.25);
+    width: calc(100% * 0.20);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
 }
 
 .version{
@@ -54,7 +58,7 @@ body{
 .bitcoinAmountDisplay{
     text-align: center;
     font-family: VCR OSD Mono, cursive;
-    font-size: 45pt;
+    font-size: 20pt;
     color: white;
     text-shadow: 1px 1px 1px black, 1px -1px 1px black, -1px 1px 1px black, -1px -1px 1px black;
     margin: 20px 0 0 0px;
@@ -71,7 +75,7 @@ body{
 .bSecRate{
     text-align: center;
     font-family: VCR OSD Mono, cursive;
-    font-size: 25pt;
+    font-size: 15pt;
     color: white;
     text-shadow: 1px 1px 1px black, 1px -1px 1px black, -1px 1px 1px black, -1px -1px 1px black
 }
