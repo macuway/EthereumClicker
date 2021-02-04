@@ -1,0 +1,194 @@
+@font-face {
+    font-family: Nunito, sans-serif;
+    src: url("../fonts/Nunito-Regular.ttf");
+}
+
+body{
+    background: rgb(46, 46, 46);
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+    -o-user-select:none;
+}
+
+.gameFullContent{
+    width: 100%;
+    display: flex;
+}
+
+.leftContainer{
+    border-radius: 20px;
+    width: calc(100% * 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("https://i.pinimg.com/originals/8b/ef/94/8bef94249eeed8fd417cdfe517a69337.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 5px rgb(19, 19, 19);
+    transition: ease-in 200ms;
+}
+
+.leftContainer:hover{
+    border-radius: 20px;
+    width: calc(100% * 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("https://i.pinimg.com/originals/8b/ef/94/8bef94249eeed8fd417cdfe517a69337.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in 200ms;
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+
+
+.version{
+    font-family: Nunito, sans-serif;
+}
+
+.mainGameContent{
+
+}
+
+.rightContainer{
+    width: calc(100%);
+    max-height: 96vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.balance {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    height: 400px;
+    width: 600px;
+    background-image: url("http://piskel-resizer.appspot.com/resize?size=200&url=http%3A%2F%2Fwww.piskelapp.com%2Fimg%2F0f956c23-393b-11e6-bf1f-65a552f5d31e.png");
+    background-size: cover;
+}
+.ethereumAmountDisplay{
+    text-align: center;
+    font-family: Nunito, sans-serif;
+    font-size: 30pt;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px black, 1px -1px 1px black, -1px 1px 1px black, -1px -1px 1px black;
+    margin-left: 30px;
+}
+.eSecRate{
+    text-align: center;
+    font-family: Nunito, sans-serif;
+    font-size: 15pt;
+    color: white;
+    margin-left: 25px;
+
+    text-shadow: 1px 1px 1px black, 1px -1px 1px black, -1px 1px 1px black, -1px -1px 1px black
+}
+.eth {
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    
+}
+.ethereum{
+    width: 400px;
+    display: flex;
+    position: fixed;
+    margin: -20px;
+    top: 5%;
+    transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
+    animation: rotation 20s linear infinite;
+    border-radius: 20px;
+}
+.ethereum:hover{
+    width: 400px;
+    top: 6%;
+    transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
+    cursor:pointer;
+}
+.ethereum:active{
+    width: 400px;
+    top: 10%;
+    transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
+}
+
+/* Item list */
+.purchaseList{
+    list-style-type: none;
+    font-family: Nunito, sans-serif;
+    margin: 0;
+    padding: 0;
+    columns: 2;
+    column-gap: 1px;
+}
+
+@media screen and (max-width: 767px) {
+    .ethereum{
+        width: 35%;
+        display: block;
+        position: absolute;
+        left: 30%;
+        right: 30%;
+        margin: 0 auto;
+        top: 30%;
+        transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
+        animation: rotation 20s linear infinite;
+        border-radius: 500px;
+        left: -160px;
+    }
+    .ethereum:hover{
+        width: 37%;
+        top: 29%;
+        transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
+        cursor: pointer;
+    }
+    .ethereum:active{
+        width: 37%;
+        top: 27%;
+        transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
+    }
+}
+
+.purchaseItem{
+    width: 75%;
+    height: 75px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background: linear-gradient(#2b2b2b, #1d1d1d);
+    transition: ease-out 200ms;
+    font-size: 12px;
+    box-shadow: 5px 5px 5px rgb(19, 19, 19);
+}
+.purchaseItem:hover{
+    background: linear-gradient(#2b2b2b, #1d1d1d);
+    color: greenyellow;
+    box-shadow: 5px 5px 5px greenyellow;
+    cursor: pointer;
+    transition: ease-in 200ms;
+}
+.amountOfItem{
+    float: right;
+    font-size: 20pt;
+    font-weight: bold;
+    margin-right: 5px;
+    color: greenyellow;
+    margin-top: 23px;
+    margin-bottom: 1px;
+}
+.itemHeadline{
+    font-size: 12pt;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: greenyellow;
+    position: fixed;
+}
+.itemPrice{
+    margin-bottom: 200px;
+    padding-top: 50px;
+    padding-left: 10px;
+}
