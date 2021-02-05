@@ -160,12 +160,13 @@ body{
     background: linear-gradient(#2b2b2b, #1d1d1d);
     transition: ease-out 200ms;
     font-size: 12px;
+    color: whitesmoke;
     box-shadow: 5px 5px 5px rgb(19, 19, 19);
 }
 .purchaseItem:hover{
     background: linear-gradient(#2b2b2b, #1d1d1d);
-    color: greenyellow;
-    box-shadow: 5px 5px 5px greenyellow;
+    color: pink;
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
     cursor: pointer;
     transition: ease-in 200ms;
 }
@@ -174,7 +175,7 @@ body{
     font-size: 20pt;
     font-weight: bold;
     margin-right: 5px;
-    color: greenyellow;
+    color: whitesmoke;
     margin-top: 23px;
     margin-bottom: 1px;
 }
@@ -184,7 +185,7 @@ body{
     margin-bottom: 0px;
     margin-top: 5px;
     margin-left: 10px;
-    color: greenyellow;
+    color: whitesmoke;
     position: fixed;
 }
 .itemPrice{
