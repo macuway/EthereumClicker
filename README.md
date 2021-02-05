@@ -21,3 +21,6 @@ Upgrades also help you "_Autoclick_"
 
 ### Okay, how do I download it?
 Right here: https://github.com/macuway/PC-Clicker/releases
+
+# Can I get the source code?
+Sure! Right here: https://github.com/macuway/EthereumClicker
