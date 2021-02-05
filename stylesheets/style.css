@@ -90,14 +90,14 @@ body{
     width: 20px;
     height: 15px;
     position: absolute;
-
+    
 }
 .ethereum{
     width: 400px;
     display: flex;
     position: fixed;
     margin: -20px;
-    top: 15%;
+    top: 12%;
     transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
     animation: rotation 20s linear infinite;
     border-radius: 20px;
@@ -110,7 +110,7 @@ body{
 }
 .ethereum:active{
     width: 400px;
-    top: 15%;
+    top: 13%;
     transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
 }
 
