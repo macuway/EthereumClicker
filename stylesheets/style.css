@@ -90,27 +90,27 @@ body{
     width: 20px;
     height: 15px;
     position: absolute;
-    
+
 }
 .ethereum{
     width: 400px;
     display: flex;
     position: fixed;
     margin: -20px;
-    top: 5%;
+    top: 15%;
     transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
     animation: rotation 20s linear infinite;
     border-radius: 20px;
 }
 .ethereum:hover{
     width: 400px;
-    top: 6%;
+    top: 10%;
     transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
     cursor:pointer;
 }
 .ethereum:active{
     width: 400px;
-    top: 10%;
+    top: 15%;
     transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
 }
 
