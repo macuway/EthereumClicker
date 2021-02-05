@@ -90,7 +90,7 @@ body{
     width: 20px;
     height: 15px;
     position: absolute;
-    
+
 }
 .ethereum{
     width: 400px;
@@ -192,4 +192,9 @@ body{
     margin-bottom: 200px;
     padding-top: 50px;
     padding-left: 10px;
+}
+
+.buyimg {
+    height: 40px;
+    width: 40px;
 }
