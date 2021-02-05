@@ -369,7 +369,7 @@ $(document).ready(function () {
 
             Game.setNewPrice()
 
-            var newRate = Game.setNewethereumRate(ethereumsPerSecond)
+            var newRate = Game.setNewEthereumRate(ethereumsPerSecond)
 
             bSec = setInterval(function () {
                 Game.bSecFunction(newRate);
